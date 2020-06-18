@@ -1,0 +1,88 @@
+:root {
+    font-size: 18px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #dae3ef;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Suez One', serif;
+}
+
+h1{
+    margin-top: 0;
+    padding: 20px 0;
+    color: #dae3ef;
+}
+
+header{
+    height: 500px;
+    background: url(http://newyorktrendnyc.com/wp-content/uploads/2020/05/backyard-1024x576.jpg);
+    background-size: cover;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    margin: 20px;
+    width: 100px;
+    background-color: #8d9099 ;
+    border: 4px solid #9a9a9a;
+    /*border-radius: 8px;*/
+    text-align: center;
+    
+}
+
+nav li a{
+    text-decoration: none;
+    color: #dae3ef;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+main{
+    display: flex;
+}
+
+main img{
+    max-width: 100%;
+}
+
+
+
+#content{
+    margin-top: 20px;
+    border-left: 2px solid #9a9a9a ;
+    padding: 0 20px;
+}
+
+h2:first-of-type{
+    margin-top: 0;    
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px double #9a9a9a;
+}
+article img{
+    height: 250px;
+    align-self: center;
+    
+}
+
