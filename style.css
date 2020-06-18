@@ -86,3 +86,26 @@ article img{
     
 }
 
+#counterBox{
+    width: 205px;
+    border: 4px double #9a9a9a;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#counterBox p{
+    font-size: 48px;
+    margin: 0;
+}
+
+.counterBtn{
+    width: 100px;
+    padding: 15px 32px;
+    text-align: center;
+    background-color: #9a9a9a;
+    border: none;
+}
+
+.counterBtn:hover{
+    background-color: #a5bd64;
+}
